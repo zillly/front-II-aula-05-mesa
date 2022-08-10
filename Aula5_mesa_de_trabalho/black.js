@@ -20,8 +20,7 @@ function item (){
 }
 
 function fundo (){
-    let lista = document.getElementsByClassName('dark')
-    for (let i = 0 ; i < lista.length; i ++){
-        lista[i].classList.toggle('fundo')
-    }
+    let lista = document.querySelector('.dark')
+    lista.classList.toggle('fundo')
+    
 }
